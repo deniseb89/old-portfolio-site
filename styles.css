@@ -1,6 +1,5 @@
 body {
-	background: url('/images/tree_bark/tree_bark.png');
-	background-repeat: no-repeat;
+	background: url('images/tree_bark/tree_bark.png');
 	font-family: 'Arimo', sans-serif;
 }
 
