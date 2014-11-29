@@ -21,6 +21,11 @@ body {
 	max-width: 700px;
 }
 
+.headline:hover {
+    background-color: rgb(42, 112, 202);
+    color: white;
+}
+
 .content {
 	border: 1px solid #71A0CF;
 	max-width: 700px;
@@ -37,6 +42,11 @@ a {
 	color: #A0CF72;
 }
 
+a:hover {
+	text-decoration: underline;
+	color: rgb(42, 112, 202);
+}
+
 .header {
 	height: 50px;
   background: grey;
@@ -48,4 +58,20 @@ a {
 .nav {
 	float: right;
 	margin: 15px;
+}
+
+#headshot {
+	height: 200px;
+	width: 200px;
+	overflow: hidden;
+	position: relative;
+	margin: 10px auto;
+	border-radius: 50%;
+}
+
+#headshot img {
+    position: absolute;
+    top: -44px;
+    left: -159px;
+    height: 500px;
 }
